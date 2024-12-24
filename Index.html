@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selene Template Homepage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #3f3b36;
+            color: #e3e3e3;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #2f2c28;
+        }
+        header h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+        }
+        header nav {
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            text-decoration: none;
+            color: #e3e3e3;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        header nav a:hover {
+            color: #f1c40f;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px;
+            background-color: #524f4b;
+        }
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .hero img {
+            max-width: 100%;
+            border-radius: 10px;
+            animation: fadeIn 2s;
+        }
+        .section {
+            padding: 40px;
+        }
+        .section h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .section p {
+            line-height: 1.6;
+            font-size: 16px;
+        }
+        .gallery {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+            animation: zoomIn 1.5s;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2f2c28;
+            margin-top: 30px;
+        }
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header class="animate__animated animate__fadeInDown">
+        <h1>Selene Interiors</h1>
+        <nav>
+            <a href="#">Services</a>
+            <a href="#">Gallery</a>
+            <a href="#">Story</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero animate__animated animate__fadeIn">
+        <h2>Elevated Spatial Design</h2>
+        <p>Selene Interiors excels in crafting stunning spaces that blend luxury and functionality. Explore our exclusive projects to experience creativity at its best.</p>
+        <img src="placeholder.jpg" alt="Living Room Design">
+    </section>
+
+    <section class="section animate__animated animate__fadeInUp">
+        <h3>Projects</h3>
+        <p>Discover our projects showcasing innovative designs that bring beauty and comfort to your space.</p>
+        <div class="gallery">
+            <img src="placeholder1.jpg" alt="Project 1">
+            <img src="placeholder2.jpg" alt="Project 2">
+            <img src="placeholder3.jpg" alt="Project 3">
+        </div>
+    </section>
+
+    <footer class="animate__animated animate__fadeInUp">
+        <p>Selene Interiors &copy; 2024 | 123 Demo St, New York, NY 12345</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
